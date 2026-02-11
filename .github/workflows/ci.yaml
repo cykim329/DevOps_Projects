@@ -21,7 +21,7 @@ jobs:
           docker build -t cykim329/devops_projects:${{ env.SHORT_SHA }} .
       - name: Login to DockerHub
         run: |
-          echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login - u "${{ secrets. DOCKERHUB_USERNAME }}" --password-stdin
+          echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets. DOCKERHUB_USERNAME }}" --password-stdin
       - name: Push to DockerHub
         run: |
           docker push cykim329/devops_projects:${{ env.SHORT_SHA }} 
