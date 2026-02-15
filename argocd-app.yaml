@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/cykim329/DevOps_Projects"
+    repoURL: "https://github.com/cykim329/DevOps_Projects.git"
     targetRevision: HEAD
-    path: DevOps_Projects/complete-devops-project-time-printer
+    path: complete-devops-project-time-printer
   destination:
     server: "https://kubernetes.default.svc"
     namespace: default
