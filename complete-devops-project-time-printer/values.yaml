@@ -1,6 +1,6 @@
 image:
   repository: cykim329/DevOps_Projects
-  tag: 60091e9
+  tag: 794a62b
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
