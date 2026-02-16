@@ -12,5 +12,5 @@ serviceAccount:
 autoscaling:
   enabled: false
 httpRoute:
-  enabled: true
+  enabled: false
   parentRefs: []
