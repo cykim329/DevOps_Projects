@@ -1,6 +1,6 @@
 image:
   repository: cykim329/DevOps_Projects
-  tag: bcf9cf3
+  tag: latest
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
@@ -11,5 +11,3 @@ serviceAccount:
   enabled: false
 autoscaling:
   enabled: false
-httpRoute:
-  enabled: true
